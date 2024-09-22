@@ -1,0 +1,21 @@
+[package]
+name = "data-processing"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+env_logger = "0.11.5"
+flate2 = "1.0.33"
+image = "0.25.2"
+indicatif = "0.17.8"
+linfa = "0.7.0"
+linfa-clustering = "0.7.0"
+log = "0.4.22"
+ndarray = "0.16.1"
+rand = "0.8.5"
+rand_xoshiro = "0.6.0"
+rayon = "1.10.0"
+reqwest = { version = "0.12.7", features = ["blocking"] }
+rusqlite = "0.32.1"
+thiserror = "1.0.63"

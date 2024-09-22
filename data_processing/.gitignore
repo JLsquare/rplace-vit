@@ -1,0 +1,8 @@
+/target
+partitions/
+end_states/
+png_output/
+data.csv
+sorted.db
+unsorted.db
+2022_place_canvas*
